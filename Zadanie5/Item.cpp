@@ -3,9 +3,14 @@
 
 //constructors
 
-Item::Item(){}
+Item::Item()
+{
+	name = "";
+	value = 0;
+}
 
 Item::Item(std::string _name, int _value) :name(_name), value(_value) {};
+
 
 //getters
 
